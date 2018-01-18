@@ -51,7 +51,6 @@ var searchTreeMethods = {
     if ( currentNode.left ){
       currentNode.depthFirstLog( callback, currentNode.left );
     }
-
     if ( currentNode.right ){
       currentNode.depthFirstLog( callback, currentNode.right );
     }
